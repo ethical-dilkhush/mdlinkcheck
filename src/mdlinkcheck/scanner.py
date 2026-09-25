@@ -2,10 +2,8 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Optional
 
 from mdlinkcheck.models import Link, LinkKind, Problem
-
 
 HEADING_RE = re.compile(r"^#{1,6}\s+(.+)$", re.MULTILINE)
 

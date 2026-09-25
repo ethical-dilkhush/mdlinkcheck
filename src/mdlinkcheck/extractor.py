@@ -6,7 +6,6 @@ from typing import Iterable
 
 from mdlinkcheck.models import ExtractOptions, Link, LinkKind
 
-
 LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 AUTO_LINK_RE = re.compile(r"<((?:https?://)[^>]+)>")
 
